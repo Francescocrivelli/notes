@@ -1,0 +1,40 @@
+[debug] [2021-07-30T00:20:41.949Z] ----------------------------------------------------------------------
+[debug] [2021-07-30T00:20:41.952Z] Command:       /usr/local/nvm/versions/node/v12.14.1/bin/node /usr/local/nvm/versions/node/v12.14.1/bin/firebase emulators:start --only hosting
+[debug] [2021-07-30T00:20:41.953Z] CLI Version:   9.16.0
+[debug] [2021-07-30T00:20:41.953Z] Platform:      linux
+[debug] [2021-07-30T00:20:41.953Z] Node Version:  v12.14.1
+[debug] [2021-07-30T00:20:41.953Z] Time:          Fri Jul 30 2021 00:20:41 GMT+0000 (Coordinated Universal Time)
+[debug] [2021-07-30T00:20:41.954Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-07-30T00:20:42.014Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-07-30T00:20:42.015Z] > authorizing via signed-in user (francesco.crivelli21@gmail.com)
+[info] i  emulators: Starting emulators: hosting {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: hosting"}}
+[debug] [2021-07-30T00:20:42.032Z] [hub] writing locator at /tmp/hub-cssiday12.json
+[debug] [2021-07-30T00:20:42.068Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/cssiday12/sites 
+[debug] [2021-07-30T00:20:42.217Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/cssiday12/sites 200
+[debug] [2021-07-30T00:20:42.217Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/cssiday12/sites {"sites":[{"name":"projects/296526094438/sites/cssiday12","defaultUrl":"https://cssiday12.web.app","appId":"1:296526094438:web:b53e22c3079608b7684da7","type":"DEFAULT_SITE"}]}
+[debug] [2021-07-30T00:20:42.217Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/cssiday12/webApps/1:296526094438:web:b53e22c3079608b7684da7/config [none]
+[debug] [2021-07-30T00:20:42.596Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/cssiday12/webApps/1:296526094438:web:b53e22c3079608b7684da7/config 200
+[debug] [2021-07-30T00:20:42.596Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/cssiday12/webApps/1:296526094438:web:b53e22c3079608b7684da7/config {"projectId":"cssiday12","appId":"1:296526094438:web:b53e22c3079608b7684da7","databaseURL":"https://cssiday12-default-rtdb.firebaseio.com","storageBucket":"cssiday12.appspot.com","apiKey":"AIzaSyBWLqWBENBE0dDR3zmml6QvCzDD_2kMhoI","authDomain":"cssiday12.firebaseapp.com","messagingSenderId":"296526094438"}
+[info] ✔  hosting: Local server: http://localhost:5001 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://localhost:5001\u001b[22m\u001b[24m"}}
+[warn] ⚠  emulators: The Emulator UI requires a project ID to start. Configure your default project with 'firebase use' or pass the --project flag. {"metadata":{"emulator":{"name":"hub"},"message":"The Emulator UI requires a project ID to start. Configure your default project with 'firebase use' or pass the --project flag."}}
+[info] 
+┌─────────────────────────────────────────────────────────────┐
+│ ✔  All emulators ready! It is now safe to connect your app. │
+└─────────────────────────────────────────────────────────────┘
+
+┌──────────┬────────────────┐
+│ Emulator │ Host:Port      │
+├──────────┼────────────────┤
+│ Hosting  │ localhost:5001 │
+└──────────┴────────────────┘
+  Emulator Hub running at localhost:4400
+  Other reserved ports: None
+
+Issues? Report them at https://github.com/firebase/firebase-tools/issues and attach the *-debug.log files.
+ 
+[info] i  hosting: 127.0.0.1 - - [30/Jul/2021:00:20:51 +0000] "GET /?authuser=0 HTTP/1.1" 200 1955 "https://shell.cloud.google.com/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [30/Jul/2021:00:20:51 +0000] \"GET /?authuser=0 HTTP/1.1\" 200 1955 \"https://shell.cloud.google.com/\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [30/Jul/2021:00:20:52 +0000] "GET /__/firebase/init.js?useEmulator=true HTTP/1.1" 200 - "https://5001-cs-75768513399-default.cs-us-east1-vpcf.cloudshell.dev/?authuser=0" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [30/Jul/2021:00:20:52 +0000] \"GET /__/firebase/init.js?useEmulator=true HTTP/1.1\" 200 - \"https://5001-cs-75768513399-default.cs-us-east1-vpcf.cloudshell.dev/?authuser=0\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [30/Jul/2021:00:21:02 +0000] "GET /writeNote.html HTTP/1.1" 200 3290 "https://5001-cs-75768513399-default.cs-us-east1-vpcf.cloudshell.dev/?authuser=0" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [30/Jul/2021:00:21:02 +0000] \"GET /writeNote.html HTTP/1.1\" 200 3290 \"https://5001-cs-75768513399-default.cs-us-east1-vpcf.cloudshell.dev/?authuser=0\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [30/Jul/2021:00:21:02 +0000] "GET /__/firebase/init.js?useEmulator=true HTTP/1.1" 200 - "https://5001-cs-75768513399-default.cs-us-east1-vpcf.cloudshell.dev/writeNote.html" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [30/Jul/2021:00:21:02 +0000] \"GET /__/firebase/init.js?useEmulator=true HTTP/1.1\" 200 - \"https://5001-cs-75768513399-default.cs-us-east1-vpcf.cloudshell.dev/writeNote.html\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [30/Jul/2021:00:21:02 +0000] "GET /js/writeNote.js HTTP/1.1" 200 1814 "https://5001-cs-75768513399-default.cs-us-east1-vpcf.cloudshell.dev/writeNote.html" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [30/Jul/2021:00:21:02 +0000] \"GET /js/writeNote.js HTTP/1.1\" 200 1814 \"https://5001-cs-75768513399-default.cs-us-east1-vpcf.cloudshell.dev/writeNote.html\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36\""}}
