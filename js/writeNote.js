@@ -10,7 +10,10 @@ window.onload = event => {
       window.location = "index.html"; // If not logged in, navigate back to login page.
     }
     const welcome = document.getElementById("welcome");
+<<<<<<< HEAD
     welcome.innerHTML = "sup" + user.displayName + "?";
+=======
+>>>>>>> f8356ed6d2b0e5efde83a4f785dec35a618378bc
   });
 };
 
