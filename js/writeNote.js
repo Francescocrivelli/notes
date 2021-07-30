@@ -10,7 +10,7 @@ window.onload = event => {
       window.location = "index.html"; // If not logged in, navigate back to login page.
     }
     const welcome = document.getElementById("welcome");
-    welcome.innerHTML = "What's up, " + user.displayName + "?";
+    welcome.innerHTML = "sup" + user.displayName + "?";
   });
 };
 
